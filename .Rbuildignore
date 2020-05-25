@@ -1,4 +1,8 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 
+bibliography.bib
+README.Rmd
 data-raw
+docs
+pkgdown

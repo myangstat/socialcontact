@@ -23,26 +23,24 @@ library(socialcontact)
 ```
 
 ``` r
-data(contacts)
-names(contacts)
+contacts2$country
 ```
 
-    ##   [1] "ALB" "DZA" "AND" "ATG" "ARG" "ARM" "AUS" "AUT" "AZE" "BHS" "BHR" "BGD"
-    ##  [13] "BLR" "BEL" "BLZ" "BEN" "BTN" "BOL" "BIH" "BWA" "BRA" "BRN" "BGR" "BFA"
-    ##  [25] "CPV" "KHM" "CMR" "CAN" "CHL" "CHN" "COL" "COG" "CRI" "HRV" "CYP" "CZE"
-    ##  [37] "DNK" "DOM" "ECU" "EGY" "SLV" "EST" "ETH" "FJI" "FIN" "FRA" "GEO" "DEU"
-    ##  [49] "GHA" "GRC" "GTM" "GIN" "GUY" "HTI" "HND" "HKG" "HUN" "ISL" "IND" "IDN"
-    ##  [61] "IRN" "IRQ" "IRL" "ISR" "ITA" "JAM" "JPN" "JOR" "KAZ" "KEN" "KIR" "KWT"
-    ##  [73] "KGZ" "LAO" "LVA" "LBN" "LSO" "LBR" "LTU" "LUX" "MYS" "MDV" "MLT" "MRT"
-    ##  [85] "MUS" "MEX" "MCO" "MNG" "MNE" "MAR" "MOZ" "NAM" "NPL" "NLD" "NZL" "NIC"
-    ##  [97] "NER" "NGA" "OMN" "PAK" "PAN" "PRY" "PER" "PHL" "POL" "PRT" "QAT" "KOR"
-    ## [109] "ROU" "RUS" "RWA" "LCA" "WSM" "STP" "SAU" "SEN" "SRB" "SYC" "SLE" "SGP"
-    ## [121] "SVK" "SVN" "SLB" "ZAF" "ESP" "LKA" "SUR" "SWE" "CHE" "SYR" "TWN" "TJK"
-    ## [133] "MKD" "THA" "TLS" "TON" "TUN" "TUR" "UGA" "UKR" "ARE" "GBR" "TZA" "USA"
-    ## [145] "URY" "UZB" "VUT" "VEN" "VNM" "YEM" "ZMB" "ZWE"
+    ##      code              name
+    ##   1:  ALB           Albania
+    ##   2:  DZA           Algeria
+    ##   3:  AND           Andorra
+    ##   4:  ATG Antigua & Barbuda
+    ##   5:  ARG         Argentina
+    ##  ---                       
+    ## 148:  VEN         Venezuela
+    ## 149:  VNM           Vietnam
+    ## 150:  YEM             Yemen
+    ## 151:  ZMB            Zambia
+    ## 152:  ZWE          Zimbabwe
 
 ``` r
-str(contacts["CHN"])
+str(contacts2$contacts["CHN"])
 ```
 
     ## List of 1

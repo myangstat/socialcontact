@@ -30,12 +30,11 @@ library(socialcontact)
 ```
 
 ```{r}
-data(contacts)
-names(contacts)
+contacts2$country
 ```
 
 ```{r}
-str(contacts["CHN"])
+str(contacts2$contacts["CHN"])
 ```
 
 ## References
