@@ -16,21 +16,6 @@ Install development version from GitHub.
 remotes::install_github("myangstat/socialcontact")
 ```
 
-    ## Downloading GitHub repo myangstat/socialcontact@master
-
-    ##      checking for file ‘/tmp/RtmpjW9k8i/remotes782f2e4f2cca/myangstat-socialcontact-66bfae4/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpjW9k8i/remotes782f2e4f2cca/myangstat-socialcontact-66bfae4/DESCRIPTION’ (422ms)
-    ##   ─  preparing ‘socialcontact’:
-    ##      checking DESCRIPTION meta-information ...  ✓  checking DESCRIPTION meta-information
-    ##   ─  checking for LF line-endings in source and make files and shell scripts
-    ##   ─  checking for empty or unneeded directories
-    ## ─  looking to see if a ‘data/datalist’ file should be added
-    ##   ─  building ‘socialcontact_0.1.0.tar.gz’ (418ms)
-    ##      
-    ## 
-
-    ## Installing package into '/home/myang/R/x86_64-pc-linux-gnu-library/3.6'
-    ## (as 'lib' is unspecified)
-
 Load the package into R.
 
 ``` r

@@ -66,10 +66,14 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-
+<div id="socialcontact" class="section level1">
+<div class="page-header"><h1 class="hasAnchor">
+<a href="#socialcontact" class="anchor"></a>socialcontact</h1></div>
 <div id="overview" class="section level2">
 <h2 class="hasAnchor">
 <a href="#overview" class="anchor"></a>Overview</h2>
+<p>Prem et al. (2020)</p>
+<p>Prem, Cook, and Jit (2017)</p>
 </div>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
@@ -77,14 +81,59 @@
 <p>Install development version from GitHub.</p>
 <div class="sourceCode" id="cb1"><pre class="r"><span class="co"># install.packages("remotes")</span>
 <span class="kw pkg">remotes</span><span class="kw ns">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span>(<span class="st">"myangstat/socialcontact"</span>)</pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode R"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="co">## Downloading GitHub repo myangstat/socialcontact@master</span></a>
+<a class="sourceLine" id="cb2-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb2-3" data-line-number="3"><span class="co">##      checking for file ‘/tmp/RtmpjW9k8i/remotes782f2e4f2cca/myangstat-socialcontact-66bfae4/DESCRIPTION’ ...  ✓  checking for file ‘/tmp/RtmpjW9k8i/remotes782f2e4f2cca/myangstat-socialcontact-66bfae4/DESCRIPTION’ (422ms)</span></a>
+<a class="sourceLine" id="cb2-4" data-line-number="4"><span class="co">##   ─  preparing ‘socialcontact’:</span></a>
+<a class="sourceLine" id="cb2-5" data-line-number="5"><span class="co">##      checking DESCRIPTION meta-information ...  ✓  checking DESCRIPTION meta-information</span></a>
+<a class="sourceLine" id="cb2-6" data-line-number="6"><span class="co">##   ─  checking for LF line-endings in source and make files and shell scripts</span></a>
+<a class="sourceLine" id="cb2-7" data-line-number="7"><span class="co">##   ─  checking for empty or unneeded directories</span></a>
+<a class="sourceLine" id="cb2-8" data-line-number="8"><span class="co">## ─  looking to see if a ‘data/datalist’ file should be added</span></a>
+<a class="sourceLine" id="cb2-9" data-line-number="9"><span class="co">##   ─  building ‘socialcontact_0.1.0.tar.gz’ (418ms)</span></a>
+<a class="sourceLine" id="cb2-10" data-line-number="10"><span class="co">##      </span></a>
+<a class="sourceLine" id="cb2-11" data-line-number="11"><span class="co">## </span></a>
+<a class="sourceLine" id="cb2-12" data-line-number="12"></a>
+<a class="sourceLine" id="cb2-13" data-line-number="13"><span class="co">## Installing package into '/home/myang/R/x86_64-pc-linux-gnu-library/3.6'</span></a>
+<a class="sourceLine" id="cb2-14" data-line-number="14"><span class="co">## (as 'lib' is unspecified)</span></a></code></pre></div>
 <p>Load the package into R.</p>
-<div class="sourceCode" id="cb2"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">socialcontact</span>)</pre></div>
+<div class="sourceCode" id="cb3"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">socialcontact</span>)</pre></div>
+<div class="sourceCode" id="cb4"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(<span class="no">contacts</span>)
+<span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span>(<span class="no">contacts</span>)</pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode R"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="co">##   [1] "ALB" "DZA" "AND" "ATG" "ARG" "ARM" "AUS" "AUT" "AZE" "BHS" "BHR" "BGD"</span></a>
+<a class="sourceLine" id="cb5-2" data-line-number="2"><span class="co">##  [13] "BLR" "BEL" "BLZ" "BEN" "BTN" "BOL" "BIH" "BWA" "BRA" "BRN" "BGR" "BFA"</span></a>
+<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="co">##  [25] "CPV" "KHM" "CMR" "CAN" "CHL" "CHN" "COL" "COG" "CRI" "HRV" "CYP" "CZE"</span></a>
+<a class="sourceLine" id="cb5-4" data-line-number="4"><span class="co">##  [37] "DNK" "DOM" "ECU" "EGY" "SLV" "EST" "ETH" "FJI" "FIN" "FRA" "GEO" "DEU"</span></a>
+<a class="sourceLine" id="cb5-5" data-line-number="5"><span class="co">##  [49] "GHA" "GRC" "GTM" "GIN" "GUY" "HTI" "HND" "HKG" "HUN" "ISL" "IND" "IDN"</span></a>
+<a class="sourceLine" id="cb5-6" data-line-number="6"><span class="co">##  [61] "IRN" "IRQ" "IRL" "ISR" "ITA" "JAM" "JPN" "JOR" "KAZ" "KEN" "KIR" "KWT"</span></a>
+<a class="sourceLine" id="cb5-7" data-line-number="7"><span class="co">##  [73] "KGZ" "LAO" "LVA" "LBN" "LSO" "LBR" "LTU" "LUX" "MYS" "MDV" "MLT" "MRT"</span></a>
+<a class="sourceLine" id="cb5-8" data-line-number="8"><span class="co">##  [85] "MUS" "MEX" "MCO" "MNG" "MNE" "MAR" "MOZ" "NAM" "NPL" "NLD" "NZL" "NIC"</span></a>
+<a class="sourceLine" id="cb5-9" data-line-number="9"><span class="co">##  [97] "NER" "NGA" "OMN" "PAK" "PAN" "PRY" "PER" "PHL" "POL" "PRT" "QAT" "KOR"</span></a>
+<a class="sourceLine" id="cb5-10" data-line-number="10"><span class="co">## [109] "ROU" "RUS" "RWA" "LCA" "WSM" "STP" "SAU" "SEN" "SRB" "SYC" "SLE" "SGP"</span></a>
+<a class="sourceLine" id="cb5-11" data-line-number="11"><span class="co">## [121] "SVK" "SVN" "SLB" "ZAF" "ESP" "LKA" "SUR" "SWE" "CHE" "SYR" "TWN" "TJK"</span></a>
+<a class="sourceLine" id="cb5-12" data-line-number="12"><span class="co">## [133] "MKD" "THA" "TLS" "TON" "TUN" "TUR" "UGA" "UKR" "ARE" "GBR" "TZA" "USA"</span></a>
+<a class="sourceLine" id="cb5-13" data-line-number="13"><span class="co">## [145] "URY" "UZB" "VUT" "VEN" "VNM" "YEM" "ZMB" "ZWE"</span></a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span>(<span class="no">contacts</span>[<span class="st">"CHN"</span>])</pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode R"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="co">## List of 1</span></a>
+<a class="sourceLine" id="cb7-2" data-line-number="2"><span class="co">##  $ CHN:List of 5</span></a>
+<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="co">##   ..$ home  : num [1:16, 1:16] 0.0742 0.1685 0.1758 0.079 0.3069 ...</span></a>
+<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="co">##   ..$ work  : num [1:16, 1:16] 0 0 0 0 0 0 0 0 0 0 ...</span></a>
+<a class="sourceLine" id="cb7-5" data-line-number="5"><span class="co">##   ..$ school: num [1:16, 1:16] 6.44e-02 1.08e-02 9.12e-05 5.20e-04 1.44e-03 ...</span></a>
+<a class="sourceLine" id="cb7-6" data-line-number="6"><span class="co">##   ..$ others: num [1:16, 1:16] 0.7154 0.3353 0.1073 0.0737 0.1302 ...</span></a>
+<a class="sourceLine" id="cb7-7" data-line-number="7"><span class="co">##   ..$ all   : num [1:16, 1:16] 0.854 0.515 0.283 0.153 0.439 ...</span></a></code></pre></div>
 </div>
 <div id="references" class="section level2">
 <h2 class="hasAnchor">
 <a href="#references" class="anchor"></a>References</h2>
+<div id="refs" class="references">
+<div id="ref-Prem2017">
+<p>Prem, Kiesha, Alex R. Cook, and Mark Jit. 2017. “Projecting Social Contact Matrices in 152 Countries Using Contact Surveys and Demographic Data.” <em>PLoS Computational Biology</em> 13 (9): e1005697. <a href="https://doi.org/10.1371/journal.pcbi.1005697" class="uri">https://doi.org/10.1371/journal.pcbi.1005697</a>.</p>
 </div>
-
+<div id="ref-Prem2020">
+<p>Prem, Kiesha, Yang Liu, Timothy W Russell, Adam J Kucharski, Rosalind M Eggo, Nicholas Davies, Mark Jit, and Petra Klepac. 2020. “The Effect of Control Strategies to Reduce Social Mixing on Outcomes of the Covid-19 Epidemic in Wuhan, China: A Modelling Study.” <em>Lancet</em> 5 (5): e261–e270. <a href="https://doi.org/10.1016/S2468-2667(20)30073-6" class="uri">https://doi.org/10.1016/S2468-2667(20)30073-6</a>.</p>
+</div>
+</div>
+</div>
+</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
