@@ -2,10 +2,11 @@ Package: socialcontact
 Type: Package
 Title: Social Contact Data and Apps
 Version: 0.1.0
-Author: Ming Yang
-Maintainer: Ming Yang <myangstat@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: c(
+    person("Ming", "Yang", role = c("aut", "cre"), email = "myangstat@gmail.com"),
+    person("Xingtong", "Wu", role = "aut"))
+Description: Provides easy access to social contact data and interactive web apps for infectious disease modeling and simulation.
+URL: https://github.com/myangstat/socialcontact
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
