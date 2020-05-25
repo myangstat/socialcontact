@@ -1,0 +1,8 @@
+url: https://myangstat.github.io/socialcontact/
+
+template:
+  params:
+    bootswatch: spacelab
+
+navbar:
+  type: inverse
