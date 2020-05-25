@@ -1,3 +1,18 @@
-# Social Contact Data and Apps
+## Overview
 
-<https://github.com/kieshaprem/covid19-agestructureSEIR-wuhan-social-distancing/issues/2>
+## Installation
+
+Install development version from GitHub.
+
+``` r
+# install.packages("remotes")
+remotes::install_github("myangstat/socialcontact")
+```
+
+Load the package into R.
+
+``` r
+library(socialcontact)
+```
+
+## References
