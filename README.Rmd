@@ -6,6 +6,7 @@ bibliography: bibliography.bib
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+options(width=100)
 ```
 
 ## Overview
@@ -36,7 +37,11 @@ contacts2$country
 ```
 
 ```{r}
-str(contacts2$contacts["CHN"])
+str(contacts2$contacts$CHN)
+```
+
+```{r}
+contacts2$contacts$CHN$all
 ```
 
 ## References
