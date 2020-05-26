@@ -7,6 +7,7 @@ Authors@R: c(
     person("Xingtong", "Wu", role = "aut"))
 Description: Provides easy access to social contact data and interactive web apps for infectious disease modeling and simulation.
 URL: https://github.com/myangstat/socialcontact
+BugReports: https://github.com/myangstat/socialcontact/issues
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

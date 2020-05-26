@@ -2,7 +2,7 @@ pandoc: 2.3.1
 pkgdown: 1.5.1
 pkgdown_sha: ~
 articles: []
-last_built: 2020-05-25T09:25Z
+last_built: 2020-05-26T01:52Z
 urls:
   reference: https://myangstat.github.io/socialcontact//reference
   article: https://myangstat.github.io/socialcontact//articles

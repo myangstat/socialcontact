@@ -3,9 +3,11 @@ socialcontact
 
 ## Overview
 
-Prem et al. (2020)
+Mossong et al. (2008)
 
 Prem, Cook, and Jit (2017)
+
+Prem et al. (2020)
 
 ## Installation
 
@@ -54,6 +56,15 @@ str(contacts2$contacts["CHN"])
 ## References
 
 <div id="refs" class="references">
+
+<div id="ref-Mossong2008">
+
+Mossong, Joël, Niel Hens, Mark Jit, Philippe Beutels, Kari Auranen,
+Rafael Mikolajczyk, Marco Massari, et al. 2008. “Social Contacts and
+Mixing Patterns Relevant to the Spread of Infectious Diseases.” *PLoS
+Medicine* 5 (3): e74. <https://doi.org/10.1371/journal.pmed.0050074>.
+
+</div>
 
 <div id="ref-Prem2017">
 
